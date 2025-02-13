@@ -1,0 +1,38 @@
+{
+  "global": {
+    "conditions": [],
+    "actions": [
+      {
+        "id": "insert_var",
+        "scriptName": "Insert_Var",
+        "highlight": false,
+        "params": [
+          {
+            "id": "nvar",
+            "type": "any",
+            "initialValue": ""
+          },
+          {
+            "id": "val-val",
+            "type": "any",
+            "initialValue": ""
+          }
+        ]
+      }
+    ],
+    "expressions": [
+      {
+        "id": "get-var-value",
+        "expressionName": "GetVariable",
+        "returnType": "any",
+        "params": [
+          {
+            "id": "var-name",
+            "type": "any",
+            "initialValue": ""
+          }
+        ]
+      }
+    ]
+  }
+}

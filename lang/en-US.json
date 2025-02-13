@@ -1,0 +1,47 @@
+{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for Easy Variable Plugin",
+  "text": {
+    "plugins": {
+      "flikes_easyvariable": {
+        "name": "Easy Variable",
+        "description": "Addon for easy variable access via text value",
+        "help-url": "https://github.com/armandoalonso/c3IDE",
+        "properties": {},
+        "aceCategories": {
+          "global": "value"
+        },
+        "conditions": {},
+        "actions": {
+          "insert_var": {
+            "list-name": "Set variable value",
+            "display-text": "Insert here your var name {0}{1}",
+            "description": "this is the description",
+            "params": {
+              "nvar": {
+                "name": "Variable name",
+                "desc": "Insert variable name in string. You can add another parts, for ex: 'name' & 3  -> you will get 'name3' variable "
+              },
+              "val-val": {
+                "name": "Set value",
+                "desc": "Set value for the variable"
+              }
+            }
+          }
+        },
+        "expressions": {
+          "get-var-value": {
+            "translated-name": "Get variable",
+            "description": "Insert here your variable name",
+            "params": {
+              "var-name": {
+                "name": "Variable name",
+                "desc": "Insert here your variable name"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
